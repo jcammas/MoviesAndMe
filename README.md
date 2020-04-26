@@ -7,7 +7,7 @@ déploiement sur les stores
 
 # screenshots des =/= étapes
 
-
+<img src='./screen1.jpg>
 
 https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native/4902068-decouvrez-le-developpement-mobile-actuel
 https://reactnative.dev/
