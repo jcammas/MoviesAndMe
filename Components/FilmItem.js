@@ -1,9 +1,10 @@
 // Components/FilmItem.js
 
 import React from 'react'
-import { StyleSheet, View, Text, Image, TouchableOpacity } from 'react-native'
+import { StyleSheet, View, Text, Image, TouchableOpacity, Dimensions, Animated } from 'react-native'
 import filmsData from '../Helpers/filmsData'
 import { getImageFromApi } from '../API/TMDBApi'
+import FadeIn from '../Animations/FadeIn'
 
 class FilmItem extends React.Component {
 
@@ -21,6 +22,7 @@ class FilmItem extends React.Component {
     render() {
         const { film, displayDetailForFilm } = this.props
         return (
+          <FadeIn>
           <TouchableOpacity
           onPress={() => displayDetailForFilm(film.id)}
           style={styles.main_container}>
@@ -42,6 +44,7 @@ class FilmItem extends React.Component {
               </View>
             </View>
           </TouchableOpacity>
+          </FadeIn>
         )
     }
 }
