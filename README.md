@@ -5,9 +5,7 @@ App ReactNative
 CRNA --> utilisation des composants du device
 déploiement sur les stores
 
-# screenshots des =/= étapes
-
-<img src='./screen1.jpg>
+# screenshots des =/= étapes dans le dossier screenshots
 
 https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native/4902068-decouvrez-le-developpement-mobile-actuel
 https://reactnative.dev/
